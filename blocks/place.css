@@ -45,6 +45,19 @@
   font-weight: 400;
   max-width: 455px;
 }
+.place__button {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(#0278fe, #003a7b);
+  color: #fff;
+  padding: 13px 20px;
+  margin-top: 48px;
+  text-decoration: none;
+}
+.place__button:hover {
+  border: 2px solid #0278fe;
+}
 
 @media screen and (max-width: 940px) {
   .places {

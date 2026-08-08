@@ -3,21 +3,14 @@
   grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
   gap: 16px;
   max-width: 1184px;
-  width: 100%;
 }
 .photos__image {
   width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 940px) {
   .photos {
     max-width: 100%;
-    gap: 16px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .photos {
-    max-width: 100%;
-    gap: 16px;
   }
 }

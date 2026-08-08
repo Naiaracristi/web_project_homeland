@@ -63,17 +63,15 @@
   .places {
     width: 100%;
   }
+
   .place {
     grid-template-columns: 1fr 1fr;
     row-gap: 12px;
-  }
-  .place {
-    grid-template-columns: 1fr;
-    row-gap: 16px;
   }
 }
 @media screen and (max-width: 480px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+    grid-template-columns: 1fr;
   }
 }
